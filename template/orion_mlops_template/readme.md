@@ -1,10 +1,10 @@
 # Kedro cookiecutter template for Hackathon
 
 ## Requirements
-To have python installed
-Clone the repo
+Install Python
+Clone this repository and checkout branch master.
 
-## cookiecutter library installed
+## Install cookiecutter library
 ```
 py -m pip install cookiecutter
 ```
