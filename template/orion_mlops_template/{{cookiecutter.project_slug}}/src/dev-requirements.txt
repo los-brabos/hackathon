@@ -1,0 +1,4 @@
+jupyter~=1.0
+jupyter_client>=5.1, <7.0
+jupyterlab~=3.0
+kedro-viz==4.3.1

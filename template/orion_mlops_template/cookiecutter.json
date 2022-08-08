@@ -1,0 +1,12 @@
+{
+    "project_name": "ORION DS Digital",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "package_name": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "sonarqube_token": "Create your token here: https://sonar.eat.jnj.com/",
+    "sonarqube_project_key": "{{ cookiecutter.project_slug|replace('orion-', '') }}",
+    "repository_homepage_url": "https://sourcecode.jnj.com/projects/ASX-JASL/repos/orion_ds_my_project/browse",
+    "author": "Joana A. Silva",
+    "_copy_without_render": [
+        "install_denodo/dialect/*.py"
+    ]
+}

@@ -1,0 +1,30 @@
+
+#################################################
+## COPY THIS FILE INTO A ENVIRONMENT FOLDER!!! ##
+## conf/local/                                 ##
+#################################################
+
+# How to use this file?
+# Make a copy of this file to conf/base/local and than you can edit
+
+# Here you ONLY declare the environment variables used in other conf folders
+# Do NOT fill with real values.
+
+# In credentials.yml you can declare credentials like:
+# dev_s3:
+#     aws_access_key_id: ${AWS_ACCESS_KEY_ID}
+#     aws_secret_access_key: ${AWS_SECRET_ACCESS_KEY}
+
+# The most common used in JnJ Orion DS projects are:
+# Data Lake User
+DL_USR: 
+# Data Lake Password
+DL_PWD:
+# Data Lake Address
+DL_ADR:
+
+MLFLOW_TRACKING_INSECURE_TLS:
+
+DENODO_USR:
+DENODO_PWD:
+DENODO_ADR: 
