@@ -1,16 +1,14 @@
-# Kedro cookiecutter template for JnJ MLOps
+# Kedro cookiecutter template for Hackathon
 
-Under construction
+## Requirements
+To have python installed
 
-## Usage with custom branch
-```sh
-cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git --checkout develop
+## cookiecutter library installed
+```
+py -m pip install cookiecutter
 ```
 
-## Starting a new Project (Step-by-step guide)
-
-Under construction
-
-## Python version
-
-conda create -n myenv python=3.8
+## Usage with custom template
+```sh
+cookiecutter template\orion_mlops_template
+```
