@@ -2,6 +2,7 @@
 
 ## Requirements
 To have python installed
+Clone the repo
 
 ## cookiecutter library installed
 ```
