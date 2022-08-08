@@ -33,8 +33,44 @@ HOSTED_DOCS_ONLY-->
 
 ## Introduction
 
-DataHub is an open-source metadata platform for the modern data stack. Read about the architectures of different metadata systems and why DataHub excels [here](https://engineering.linkedin.com/blog/2020/datahub-popular-metadata-architectures-explained). You should also visit [DataHub Architecture](docs/architecture/architecture.md) to get a better understanding of how DataHub is implemented.
+DataHub is an open-source metadata platform for the modern data stack. You should also visit [DataHub Architecture](docs/architecture/architecture.md) to get a better understanding of how DataHub is implemented.
 
+## DataHub Quickstart Guide
+### Deploying DataHub
+To deploy a new instance of DataHub, perform the following steps.
+
+Install docker, jq and docker-compose v1 (if using Linux). Make sure to allocate enough hardware resources for Docker engine. Tested & confirmed config: 2 CPUs, 8GB RAM, 2GB Swap area, and 10GB disk space.
+
+Launch the Docker Engine from command line or the desktop app.
+
+Install the DataHub CLI
+
+a. Ensure you have Python 3.6+ installed & configured. (Check using python3 --version)
+
+b. Run the following commands in your terminal
+
+```
+python3 -m pip install --upgrade pip wheel setuptools
+python3 -m pip uninstall datahub acryl-datahub || true  # sanity check - ok if it fails
+python3 -m pip install --upgrade acryl-datahub
+datahub version
+```
+
+To deploy a DataHub instance locally, run the following CLI command from your terminal
+
+```
+datahub docker quickstart
+```
+
+This will deploy a DataHub instance using docker-compose.
+
+Upon completion of this step, you should be able to navigate to the DataHub UI at http://localhost:9002 in your browser. You can sign in using datahub as both the username and password.
+
+To ingest the sample metadata, run the following CLI command from your terminal
+
+```
+datahub docker ingest-sample-data
+```
 
 ## License
 
