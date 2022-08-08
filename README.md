@@ -27,7 +27,7 @@ HOSTED_DOCS_ONLY-->
 [![Version](https://img.shields.io/github/v/release/datahub-project/datahub?include_prereleases)](https://github.com/datahub-project/datahub/releases/latest)
 
 [![Follow](https://img.shields.io/twitter/follow/ciandt?label=Follow&style=social)](https://twitter.com/ciandt)
-### 🏠 CI&T Homepage: [datahubproject.io](https://ciandt.com/br/pt-br)
+### 🏠 CI&T Homepage: [CI&T](https://ciandt.com/br/pt-br)
 
 
 
