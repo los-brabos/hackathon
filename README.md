@@ -29,7 +29,8 @@ HOSTED_DOCS_ONLY-->
 [![Follow](https://img.shields.io/twitter/follow/ciandt?label=Follow&style=social)](https://twitter.com/ciandt)
 ### 🏠 CI&T Homepage: [CI&T](https://ciandt.com/br/pt-br)
 
-
+## For demonstration purpose, access:
+https://github.com/los-brabos/hackathon/blob/master/template/orion_mlops_template/readme.md
 
 ## Introduction
 
